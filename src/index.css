@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  
+  
+}
+
+::selection{
+  background-color: #46494A;
+}
+
+
+@font-face {
+  font-family: Kashh;
+  src: url(./assets/file.woff2);
+}
+@font-face {
+  font-family: Kashh2;
+  src: url(./assets/file1.woff2);
+}
+
+@font-face {
+  font-family: Kashh3;
+  src: url(./assets/file2.woff2);
+}
+#page1{
+  position: relative;
+  perspective: 800px;
+}
+#page2{
+  position: relative;
+  perspective: 4000px;
+}
+
+#tilt{
+ 
+  width: fit-content;
+}
+
+.rotateText{
+ 
+  transform-origin: 100% 70%;
+}
+
+.moondiv img{
+  perspective: 1000px;
+  
+}
+ .earthdiv img{
+  background-color: rgba(4, 74, 93, 0.841);
+} 
+
+.shadow{
+   
+    box-shadow: inset -478px 0 141px 146px rgba(0, 0, 0, 0.8);
+
+}
+
+/* .heading h1 {
+  width: fit-content;
+} */
+
+.wrap{
+  max-width: 60%;
+  background-color: red;
+}
+
+/* Page 3 animations */
+@keyframes backgroundMove {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(30px, 30px); }
+}
+
+@keyframes orbitRing {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes floatParticle {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(180deg); }
+}
+
+@keyframes gridMove {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(40px, 40px); }
+}
