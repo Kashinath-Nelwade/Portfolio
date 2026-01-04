@@ -9,10 +9,10 @@ const SmoothScroll = () => {
   useEffect(() => {
     // 1️⃣ Lenis init
     const lenis = new Lenis({
-      smooth: true,
-      lerp: 0.07, // smoothness (0.05 = very smooth, 0.1 = fast)
-      wheelMultiplier: 0.4,
-      touchMultiplier: 1.5,
+        smooth: true,
+        lerp: isMobile ? 0.1 : 0.07,
+        wheelMultiplier: 0.4,
+        touchMultiplier: isMobile ? 0.7 : 1.2,
     })
 
     // 2️⃣ RAF loop
