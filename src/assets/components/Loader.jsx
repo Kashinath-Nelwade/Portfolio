@@ -46,25 +46,25 @@ const Loader = ({ onComplete }) => {
       </div>
 
       {/* Top texts */}
-      <div className="absolute top-6 left-6 text-sm tracking-wide opacity-70">
+      <div className="absolute top-4 sm:top-6 left-4 sm:left-6 text-xs sm:text-sm tracking-wide opacity-70">
         Crafting Web Experiences
       </div>
 
-      <div className="absolute top-6 right-6 text-sm tracking-wide opacity-70">
+      <div className="absolute top-4 sm:top-6 right-4 sm:right-6 text-xs sm:text-sm tracking-wide opacity-70">
         Learning. Building. Improving.
       </div>
 
-      <div className="absolute top-6 left-1/2 -translate-x-1/2 text-2xl tracking-widest opacity-100  ">
+      <div className="absolute top-4 pt-28 sm:pt-14 md:pt-8 sm:top-6 left-1/2 -translate-x-1/2 text-sm sm:text-2xl tracking-widest opacity-100  ">
         KASHINATH NELWADE
       </div>
 
       {/* Center loader */}
-      <h1 className="relative text-4xl tracking-widest font-light">
+      <h1 className="relative text-2xl sm:text-4xl tracking-widest font-light">
         {progress}%
       </h1>
 
       {/* Bottom */}
-      <div className="absolute bottom-6 right-6 text-sm opacity-50">
+      <div className="absolute bottom-4 sm:bottom-6 right-4 sm:right-6 text-xs sm:text-sm opacity-50">
         Loading...
       </div>
     </div>

@@ -40,7 +40,7 @@ const Page1 = () => {
     >
       <div
         id="page1"
-        className="w-full h-full relative rounded-2xl sm:rounded-3xl md:rounded-[40px] shadow-[0_0_20px_rgba(0,0,0,0.5)] text-white bg-[url(./assets/components/kashinathimg.png)] bg-cover bg-center grayscale-25 " 
+        className="w-full h-full relative rounded-2xl sm:rounded-3xl md:rounded-[40px] shadow-[0_0_20px_rgba(0,0,0,0.5)] text-white bg-[url(/images/portrait_img.jpg)]  sm:bg-[url(./assets/components/kashinathimg.png)]  bg-cover bg-[center_20%] sm:bg-center md:bg-center grayscale-25 " 
       >
         {/* Logo and Portfolio Text */}
         <div className="flex items-center gap-3 sm:gap-4 md:gap-6 px-4 sm:px-8 py-6 sm:py-10">
