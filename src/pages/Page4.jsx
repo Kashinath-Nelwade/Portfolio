@@ -117,7 +117,7 @@ const Page4 = () => {
 
         {/* Project Cards Container */}
         <div
-          className="flex flex-wrap justify-center gap-x-6 gap-y-10 gap w-full max-w-[1800px] py-10 mt-16 rounded-2xl sm:rounded-3xl md:rounded-[25px] shadow-black text-white bg-zinc-500 bg-cover bg-center"
+          className="flex flex-wrap justify-center gap-x-6 gap-y-10 gap w-full max-w-[1800px] py-10 mt-16 rounded-2xl sm:rounded-3xl md:rounded-[25px] shadow-black text-white bg-zinc-400 bg-cover bg-center"
         >
 
           {/* CARECODE */}

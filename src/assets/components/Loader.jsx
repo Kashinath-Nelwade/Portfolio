@@ -39,7 +39,7 @@ const Loader = ({ onComplete }) => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/images/kashinath.png"
+          src="/images/loaderbaw.jpg"
           className="w-full h-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-black/60" />

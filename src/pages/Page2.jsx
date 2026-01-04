@@ -31,6 +31,7 @@ const Page2 = () => {
       gsap.from(el, {
         rotationX: -75,
         // opacity: 0.5,
+        x:-60,
         opacity:0,
         color: "rgb(110, 92, 82)",
         duration: 0.8,
