@@ -74,7 +74,7 @@ const Page4 = () => {
     specialCardRef.current
     ,{
       y:-338,
-      x:-680,
+      x:-660,
       delay:1,
       opacity:1,
       scale:0.2,
