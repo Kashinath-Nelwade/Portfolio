@@ -13,10 +13,10 @@ const SmokeCursor = () => {
       mousePos.current = { x: e.clientX, y: e.clientY }
       
       // Create more smoke particles for denser effect
-      if (Math.random() > 0.4) { // Increased frequency for more smoke
+      if (Math.random() > 0.9) { // Increased frequency for more smoke
         createSmokeParticle()
       }
-      if (Math.random() > 0.6) { // Additional particles
+      if (Math.random() > 0.7) { // Additional particles
         createSmokeParticle()
       }
     }
@@ -25,12 +25,12 @@ const SmokeCursor = () => {
       const particle = document.createElement('div')
       
       // Create realistic smoke behind cursor
-      const trailX = mousePos.current.x - (mousePos.current.x - prevPos.current.x) * 0.5
-      const trailY = mousePos.current.y - (mousePos.current.y - prevPos.current.y) * 0.5
+      const trailX = mousePos.current.x - (mousePos.current.x - prevPos.current.x) * 1
+      const trailY = mousePos.current.y - (mousePos.current.y - prevPos.current.y) * 1
       
-      const offsetX = (Math.random() - 0.5) * 15
-      const offsetY = (Math.random() - 0.5) * 15
-      const size = Math.random() * 8 + 3
+      const offsetX = (Math.random() - 0.5) * 35
+      const offsetY = (Math.random() - 0.5) * 35
+      const size = Math.random() * 10 + 6
       
       particle.style.cssText = `
         position: fixed;
@@ -38,12 +38,14 @@ const SmokeCursor = () => {
         top: ${trailY + offsetY - size/2}px;
         width: ${size}px;
         height: ${size}px;
-        background: radial-gradient(circle, 
-          rgba(255, 255, 255, 0.7) 0%, 
-          rgba(230, 230, 230, 0.5) 30%, 
-          rgba(200, 200, 200, 0.3) 60%, 
-          rgba(150, 150, 150, 0.1) 80%, 
-          transparent 100%);
+        background: radial-gradient(circle,
+            rgba(212, 212, 216, 0.75) 0%,   /* zinc-300 core */
+            rgba(190, 190, 195, 0.55) 30%,
+            rgba(160, 160, 165, 0.35) 60%,
+            rgba(130, 130, 135, 0.15) 80%,
+            transparent 100%
+          );
+
         border-radius: ${Math.random() * 50 + 50}%;
         pointer-events: none;
         z-index: 9998;

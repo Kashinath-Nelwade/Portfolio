@@ -7,7 +7,7 @@ const TiltText = (props) => {
     <div
       id="tilt"
       ref={props.abc}
-      className="mt-6 sm:mt-10 md:mt-14 px-4 text-center md:text-left ml-6 sm:ml-10 md:ml-14"
+      className="mt-6 sm:mt-10 md:mt-14 px-4 text-center md:text-left ml-6 sm:ml-24 md:ml-24"
     >
       {/* Top Subtitle */}
       <h2 className="text-[clamp(1rem,2vw,1.5rem)] font-bold tracking-wider">
