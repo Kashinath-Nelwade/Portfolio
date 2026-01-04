@@ -87,7 +87,7 @@ const Page6 = () => {
   );
 
   return (
-    <div className='bg-zinc-900 text-white min-h-screen flex flex-col items-center justify-between p-8 relative overflow-hidden font-[kashh1] tracking-tight '>
+    <div className='bg-zinc-800 text-white min-h-screen flex flex-col items-center justify-between p-8 relative overflow-hidden font-[kashh1] tracking-tight '>
 
       <div className="max-w-9xl mx-auto text-center relative z-10 space-x-12 flex-1 flex flex-col justify-center">
         {/* Main heading */}

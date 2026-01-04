@@ -85,7 +85,7 @@ const Page3 = () => {
   })
 
   return (
-    <div className="bg-zinc-900 text-white p-4 sm:p-6 md:p-10 overflow-x-hidden min-h-screen">
+    <div className="bg-zinc-800 text-white p-4 sm:p-6 md:p-10 overflow-x-hidden min-h-screen">
       <div className="max-w-8xl mx-auto">
 
         {/*  Title */}

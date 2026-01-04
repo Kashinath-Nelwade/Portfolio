@@ -9,13 +9,13 @@ const Loader = ({ onComplete }) => {
     // Reset scroll position to top on page load
     window.scrollTo(0, 0)
     
-    let count = 0
+    let count = 100
 
     const interval = setInterval(() => {
-      count += 1
+      count -= 1
       setProgress(count)
 
-      if (count === 100) {
+      if (count === 0) {
         clearInterval(interval)
 
         // Wait 3 seconds before hiding loader
@@ -39,7 +39,7 @@ const Loader = ({ onComplete }) => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/bg.jpg"
+          src="/images/kashinath.png"
           className="w-full h-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-black/60" />
@@ -47,14 +47,14 @@ const Loader = ({ onComplete }) => {
 
       {/* Top texts */}
       <div className="absolute top-6 left-6 text-sm tracking-wide opacity-70">
-        Strategic Life & Career Coach
+        Crafting Web Experiences
       </div>
 
       <div className="absolute top-6 right-6 text-sm tracking-wide opacity-70">
-        For London’s top 1%
+        Learning. Building. Improving.
       </div>
 
-      <div className="absolute top-6 left-1/2 -translate-x-1/2 text-sm tracking-widest opacity-70">
+      <div className="absolute top-6 left-1/2 -translate-x-1/2 text-2xl tracking-widest opacity-100  ">
         KASHINATH NELWADE
       </div>
 

@@ -125,7 +125,7 @@ const Page2 = () => {
       </div>
 
       {/* 🔹 Buttons */}
-      <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 md:gap-16 justify-end mt-14 sm:mt-20 ">
+      <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 md:gap-16 justify-end mt-14 sm:mt-20 pb-20">
         <a href="https://www.instagram.com/kashinathnelwade/" target="_blank" rel="noopener noreferrer" className="px-2 sm:px-6 py-4 sm:py-5  bg-black/5  text-center border-2 border-white font-bold text-white cursor-pointer rounded-full">
           Say Hi 👋
         </a>

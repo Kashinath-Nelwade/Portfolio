@@ -36,7 +36,7 @@ const Page1 = () => {
     <div
       onMouseMove={(e) => mouseMoving(e)}
       onMouseLeave={HandleMouseLeave}
-      className="h-screen bg-gradient-to-l from-[#161719] to-[#222323]  flex justify-center items-center px-4 sm:px-6 md:px-5 py-5 sm:py-6 md:py-5  overflow-x-hidden"
+      className="h-screen bg-gradient-to-l from-[#191A1A] to-[#242425]  flex justify-center items-center px-4 sm:px-6 md:px-5 py-5 sm:py-6 md:py-5  overflow-x-hidden"
     >
       <div
         id="page1"

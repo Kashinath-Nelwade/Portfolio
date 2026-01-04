@@ -74,7 +74,7 @@ const Page4 = () => {
     specialCardRef.current
     ,{
       y:-338,
-      x:-760,
+      x:-720,
       delay:1,
       opacity:1,
       scale:0.2,
@@ -97,7 +97,7 @@ const Page4 = () => {
   
   return (
     <div>
-      <div  className="min-h-screen bg-zinc-800 flex flex-col items-start px-4 sm:px-6 md:px-10 py-5 sm:py-6 md:py-10 overflow-x-hidden">
+      <div  className="min-h-screen bg-[#242424] flex flex-col items-start px-4 sm:px-6 md:px-10 py-5 sm:py-6 md:py-10 overflow-x-hidden">
 
         
 
