@@ -26,7 +26,7 @@ const Loader = ({ onComplete }) => {
             ease: "power4.out",
             onComplete: onComplete,
           })
-        }, 3000)
+        }, 250)
       }
     }, 30)
   }, [])

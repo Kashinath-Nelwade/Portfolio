@@ -53,7 +53,7 @@ const Page2 = () => {
     >
 
       {/* 🔹 Moving header */}
-      <h3 className="text-2xl pb-10 sm:text-3xl md:text-5xl lg:text-8xl  whitespace-nowrap text-white text-center font-[kashh1] font-bold tracking-widest">
+      <h3 className="text-2xl pb-10 sm:text-3xl md:text-5xl lg:text-8xl  whitespace-nowrap text-zinc-400 text-center font-[kashh1] font-bold tracking-widest">
         Kashinath Nelwade | DSA and Development
       </h3>
 

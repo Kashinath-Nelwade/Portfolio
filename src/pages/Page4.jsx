@@ -104,8 +104,8 @@ const Page4 = () => {
         {/* Heading */}
         <div ref={titleRef} className="mb-16 sm:mb-20 md:mb-24 ">
 
-          <h1  className="font-[kashh1] text-white font-bold text-4xl sm:text-4xl md:text-6xl lg:text-7xl tracking-tight">
-            ___Projects
+          <h1  className="font-[kashh1] text-white font-bold text-4xl sm:text-4xl md:text-6xl lg:text-7xl tracking-tight pl-30  ">
+            Projects
           </h1>
           <h1  className=" text-white font-bold text-2xl sm:text-3xl md:text-3xl lg:text-4xl pt-4 tracking-tight">
             Crafted with <span className="text-pink-400">love</span> 
@@ -196,9 +196,9 @@ const Page4 = () => {
         </div>
 
         {/* See All Work Link */}
-        <a href="https://www.linkedin.com/in/kashinath-nelwade/" target='_blank' rel="noopener noreferrer" className='flex flex-row justify-end items-center gap-4 py-16 px-4 w-full'>
-          <h1 className='text-6xl font-[kashh] text-white'>See all my work.</h1>
-          <h1 className='text-6xl font-[kashh] text-white'>➡️</h1>
+        <a href="https://www.linkedin.com/in/kashinath-nelwade/" target='_blank' rel="noopener noreferrer" className='flex flex-row justify-end items-center gap-1 font-bold py-16 px-4 w-full'>
+          <h1 className='text-4xl font-[kashh1] text-white'>See all my work.</h1>
+          <h1 className='text-6xl font-[kashh1] text-white'>➡️</h1>
         </a>
 
       </div>
