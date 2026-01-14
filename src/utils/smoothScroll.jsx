@@ -10,7 +10,7 @@ const SmoothScroll = () => {
     // 1️⃣ Lenis init
     const lenis = new Lenis({
       smooth: true,
-      lerp: 0.07, // smoothness (0.05 = very smooth, 0.1 = fast)
+      lerp: 0.08, // smoothness (0.05 = very smooth, 0.1 = fast)
       wheelMultiplier: 0.4,
       touchMultiplier: 0.7,
     })
