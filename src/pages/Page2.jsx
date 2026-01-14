@@ -139,7 +139,7 @@ const Page2 = () => {
         </a>
       </div>
 
-    </div>rt
+    </div>
   )
 }
 
