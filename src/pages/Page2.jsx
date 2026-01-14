@@ -127,19 +127,19 @@ const Page2 = () => {
 
       {/* 🔹 Buttons */}
       <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 md:gap-16 justify-end mt-14 sm:mt-20 pb-20">
-        <a href="https://www.instagram.com/kashinathnelwade/" target="_blank" rel="noopener noreferrer" className="px-2 sm:px-6 py-4 sm:py-5  bg-black/5  text-center border-2 border-white font-bold text-white cursor-pointer rounded-full">
+        <a href="https://www.instagram.com/kashinathnelwade/" target="_blank" rel="noopener noreferrer" className="px-2 sm:px-6 py-4 sm:py-5  bg-black/5  text-center border-2 border-white font-bold text-white cursor-pointer rounded-full hover:bg-zinc-100/20 hover:scale-90">
           Say Hi 👋
         </a>
 
         {/* github repo */}
 
-        <a href='https://github.com/Kashinath-Nelwade' rel='noopener noreferrer' target="_blank" className="px-2 sm:px-6 py-4 sm:py-5 bg-black/5 text-center content-center   border-2 border-white font-bold cursor-pointer text-white  rounded-full flex items-center justify-center gap-2">
+        <a href='https://github.com/Kashinath-Nelwade' rel='noopener noreferrer' target="_blank" className="px-2 sm:px-6 py-4 sm:py-5 bg-black/5 text-center content-center   border-2 border-white font-bold cursor-pointer text-white  rounded-full flex items-center justify-center gap-2 hover:bg-zinc-100/20 hover:scale-90">
           Watch my Repo
           <img className='w-6 h-6 ' src="images/github.png" alt="" />
         </a>
       </div>
 
-    </div>
+    </div>rt
   )
 }
 
